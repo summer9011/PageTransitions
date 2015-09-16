@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1874C4D31BA95240007F1498 /* Temp1Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 1874C4D11BA95240007F1498 /* Temp1Controller.m */; };
+		1874C4D41BA95240007F1498 /* Temp1Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1874C4D21BA95240007F1498 /* Temp1Controller.xib */; };
+		1874C4D81BA9524D007F1498 /* Temp2Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 1874C4D61BA9524D007F1498 /* Temp2Controller.m */; };
+		1874C4D91BA9524D007F1498 /* Temp2Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1874C4D71BA9524D007F1498 /* Temp2Controller.xib */; };
+		1874C4DD1BA9525A007F1498 /* Temp3Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 1874C4DB1BA9525A007F1498 /* Temp3Controller.m */; };
+		1874C4DE1BA9525A007F1498 /* Temp3Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1874C4DC1BA9525A007F1498 /* Temp3Controller.xib */; };
+		1874C4E21BA95265007F1498 /* Temp4Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 1874C4E01BA95265007F1498 /* Temp4Controller.m */; };
+		1874C4E31BA95265007F1498 /* Temp4Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1874C4E11BA95265007F1498 /* Temp4Controller.xib */; };
+		1874C4E71BA95274007F1498 /* Temp5Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 1874C4E51BA95274007F1498 /* Temp5Controller.m */; };
+		1874C4E81BA95274007F1498 /* Temp5Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1874C4E61BA95274007F1498 /* Temp5Controller.xib */; };
 		18AF97581BA8FA5000723449 /* FirstController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AF97571BA8FA5000723449 /* FirstController.m */; };
 		18AF975B1BA8FA5D00723449 /* SecondController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AF975A1BA8FA5D00723449 /* SecondController.m */; };
 		18AF975E1BA8FA6800723449 /* ThirdController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AF975D1BA8FA6800723449 /* ThirdController.m */; };
@@ -62,6 +72,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1874C4D01BA95240007F1498 /* Temp1Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Temp1Controller.h; sourceTree = "<group>"; };
+		1874C4D11BA95240007F1498 /* Temp1Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Temp1Controller.m; sourceTree = "<group>"; };
+		1874C4D21BA95240007F1498 /* Temp1Controller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Temp1Controller.xib; sourceTree = "<group>"; };
+		1874C4D51BA9524D007F1498 /* Temp2Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Temp2Controller.h; sourceTree = "<group>"; };
+		1874C4D61BA9524D007F1498 /* Temp2Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Temp2Controller.m; sourceTree = "<group>"; };
+		1874C4D71BA9524D007F1498 /* Temp2Controller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Temp2Controller.xib; sourceTree = "<group>"; };
+		1874C4DA1BA9525A007F1498 /* Temp3Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Temp3Controller.h; sourceTree = "<group>"; };
+		1874C4DB1BA9525A007F1498 /* Temp3Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Temp3Controller.m; sourceTree = "<group>"; };
+		1874C4DC1BA9525A007F1498 /* Temp3Controller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Temp3Controller.xib; sourceTree = "<group>"; };
+		1874C4DF1BA95265007F1498 /* Temp4Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Temp4Controller.h; sourceTree = "<group>"; };
+		1874C4E01BA95265007F1498 /* Temp4Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Temp4Controller.m; sourceTree = "<group>"; };
+		1874C4E11BA95265007F1498 /* Temp4Controller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Temp4Controller.xib; sourceTree = "<group>"; };
+		1874C4E41BA95274007F1498 /* Temp5Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Temp5Controller.h; sourceTree = "<group>"; };
+		1874C4E51BA95274007F1498 /* Temp5Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Temp5Controller.m; sourceTree = "<group>"; };
+		1874C4E61BA95274007F1498 /* Temp5Controller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Temp5Controller.xib; sourceTree = "<group>"; };
 		18AF97561BA8FA5000723449 /* FirstController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstController.h; sourceTree = "<group>"; };
 		18AF97571BA8FA5000723449 /* FirstController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstController.m; sourceTree = "<group>"; };
 		18AF97591BA8FA5D00723449 /* SecondController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondController.h; sourceTree = "<group>"; };
@@ -153,6 +178,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1874C4E91BA95279007F1498 /* TempVC */ = {
+			isa = PBXGroup;
+			children = (
+				1874C4D01BA95240007F1498 /* Temp1Controller.h */,
+				1874C4D11BA95240007F1498 /* Temp1Controller.m */,
+				1874C4D21BA95240007F1498 /* Temp1Controller.xib */,
+				1874C4D51BA9524D007F1498 /* Temp2Controller.h */,
+				1874C4D61BA9524D007F1498 /* Temp2Controller.m */,
+				1874C4D71BA9524D007F1498 /* Temp2Controller.xib */,
+				1874C4DA1BA9525A007F1498 /* Temp3Controller.h */,
+				1874C4DB1BA9525A007F1498 /* Temp3Controller.m */,
+				1874C4DC1BA9525A007F1498 /* Temp3Controller.xib */,
+				1874C4DF1BA95265007F1498 /* Temp4Controller.h */,
+				1874C4E01BA95265007F1498 /* Temp4Controller.m */,
+				1874C4E11BA95265007F1498 /* Temp4Controller.xib */,
+				1874C4E41BA95274007F1498 /* Temp5Controller.h */,
+				1874C4E51BA95274007F1498 /* Temp5Controller.m */,
+				1874C4E61BA95274007F1498 /* Temp5Controller.xib */,
+			);
+			name = TempVC;
+			sourceTree = "<group>";
+		};
 		18AF975F1BA8FA6E00723449 /* 左右切换(UICollectionView) */ = {
 			isa = PBXGroup;
 			children = (
@@ -168,13 +215,14 @@
 			name = "左右切换(UICollectionView)";
 			sourceTree = "<group>";
 		};
-		18AF97601BA8FA7500723449 /* 类似网易新闻 */ = {
+		18AF97601BA8FA7500723449 /* 类似网易新闻页面切换 */ = {
 			isa = PBXGroup;
 			children = (
 				18AF97591BA8FA5D00723449 /* SecondController.h */,
 				18AF975A1BA8FA5D00723449 /* SecondController.m */,
+				1874C4E91BA95279007F1498 /* TempVC */,
 			);
-			name = "类似网易新闻";
+			name = "类似网易新闻页面切换";
 			sourceTree = "<group>";
 		};
 		18AF97611BA8FA8200723449 /* 自定义UICollectionViewLayout */ = {
@@ -290,7 +338,7 @@
 				18D152B41BA6AA9E00E0E88C /* AppDelegate.m */,
 				18AF975F1BA8FA6E00723449 /* 左右切换(UICollectionView) */,
 				18AF97841BA911EE00723449 /* 左右切换(UIScrollView) */,
-				18AF97601BA8FA7500723449 /* 类似网易新闻 */,
+				18AF97601BA8FA7500723449 /* 类似网易新闻页面切换 */,
 				18AF97611BA8FA8200723449 /* 自定义UICollectionViewLayout */,
 				18D152B91BA6AA9E00E0E88C /* Main.storyboard */,
 				18D152BC1BA6AA9E00E0E88C /* Images.xcassets */,
@@ -406,13 +454,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1874C4D91BA9524D007F1498 /* Temp2Controller.xib in Resources */,
 				18AF977A1BA8FE3C00723449 /* 9.jpg in Resources */,
 				18AF97791BA8FE3C00723449 /* 8.jpg in Resources */,
 				18AF97781BA8FE3C00723449 /* 7.jpg in Resources */,
 				18AF97751BA8FE3C00723449 /* 4.jpg in Resources */,
 				18AF97731BA8FE3C00723449 /* 2.jpg in Resources */,
 				18D152BB1BA6AA9E00E0E88C /* Main.storyboard in Resources */,
+				1874C4DE1BA9525A007F1498 /* Temp3Controller.xib in Resources */,
 				18AF97761BA8FE3C00723449 /* 5.jpg in Resources */,
+				1874C4D41BA95240007F1498 /* Temp1Controller.xib in Resources */,
+				1874C4E31BA95265007F1498 /* Temp4Controller.xib in Resources */,
 				18AF97771BA8FE3C00723449 /* 6.jpg in Resources */,
 				18AF97801BA9013A00723449 /* FirstCell.xib in Resources */,
 				18AF978C1BA915A400723449 /* ImageScrollView.xib in Resources */,
@@ -422,6 +474,7 @@
 				18AF978E1BA915B800723449 /* loading.gif in Resources */,
 				18AF97741BA8FE3C00723449 /* 3.jpg in Resources */,
 				18AF97721BA8FE3C00723449 /* 1.jpg in Resources */,
+				1874C4E81BA95274007F1498 /* Temp5Controller.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,6 +496,8 @@
 				18AF97B61BA9164A00723449 /* SDWebImageDecoder.m in Sources */,
 				18AF97C01BA9164A00723449 /* UIImageView+WebCache.m in Sources */,
 				18D152B51BA6AA9E00E0E88C /* AppDelegate.m in Sources */,
+				1874C4D81BA9524D007F1498 /* Temp2Controller.m in Sources */,
+				1874C4E71BA95274007F1498 /* Temp5Controller.m in Sources */,
 				18AF97B81BA9164A00723449 /* SDWebImageDownloaderOperation.m in Sources */,
 				18AF97B91BA9164A00723449 /* SDWebImageManager.m in Sources */,
 				18AF97871BA9156000723449 /* FourthController.m in Sources */,
@@ -459,11 +514,14 @@
 				18D152B21BA6AA9E00E0E88C /* main.m in Sources */,
 				18AF97B41BA9164A00723449 /* SDImageCache.m in Sources */,
 				18AF97831BA9016100723449 /* FirstFlowLayout.m in Sources */,
+				1874C4DD1BA9525A007F1498 /* Temp3Controller.m in Sources */,
 				18AF975E1BA8FA6800723449 /* ThirdController.m in Sources */,
 				18AF97581BA8FA5000723449 /* FirstController.m in Sources */,
+				1874C4E21BA95265007F1498 /* Temp4Controller.m in Sources */,
 				18AF97BC1BA9164A00723449 /* UIImage+GIF.m in Sources */,
 				18AF97B31BA9164A00723449 /* NSData+ImageContentType.m in Sources */,
 				18AF97BE1BA9164A00723449 /* UIImage+WebP.m in Sources */,
+				1874C4D31BA95240007F1498 /* Temp1Controller.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

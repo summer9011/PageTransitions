@@ -218,4 +218,31 @@
     
 }
 
+- (IBAction)changeView:(id)sender {
+    UIPanGestureRecognizer *pan = (UIPanGestureRecognizer *)sender;
+    
+    switch (pan.state) {
+        case UIGestureRecognizerStateBegan: {
+            NSLog(@"began %@", NSStringFromCGPoint([pan translationInView:self.view]));
+        }
+            break;
+        case UIGestureRecognizerStateChanged: {
+            NSLog(@"changed %@", NSStringFromCGPoint([pan translationInView:self.view]));
+        }
+            break;
+        case UIGestureRecognizerStateEnded: {
+            NSLog(@"ended %@", NSStringFromCGPoint([pan translationInView:self.view]));
+        }
+            break;
+        case UIGestureRecognizerStateCancelled: {
+            NSLog(@"cancelled %@", NSStringFromCGPoint([pan translationInView:self.view]));
+        }
+            break;
+        default: {
+            NSLog(@"111");
+        }
+            break;
+    }
+}
+
 @end

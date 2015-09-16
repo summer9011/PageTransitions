@@ -182,11 +182,15 @@
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="Se0-cs-Vwd" secondAttribute="trailing" id="KTv-Sj-7dI"/>
                             <constraint firstItem="Se0-cs-Vwd" firstAttribute="leading" secondItem="7HQ-Kb-DqF" secondAttribute="leading" id="QIt-HY-wGE"/>
                             <constraint firstItem="Se0-cs-Vwd" firstAttribute="top" secondItem="7HQ-Kb-DqF" secondAttribute="top" id="jJZ-WX-tuM"/>
                         </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="5nw-rg-RJK" appends="YES" id="8lI-FW-x7i"/>
+                        </connections>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
                     <connections>
@@ -194,6 +198,11 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dfL-ud-QJp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="5nw-rg-RJK">
+                    <connections>
+                        <action selector="changeView:" destination="MXF-jQ-uP9" id="MpW-YA-Gfy"/>
+                    </connections>
+                </panGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="1431" y="1232"/>
         </scene>

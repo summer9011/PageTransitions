@@ -18,23 +18,23 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     
-    NSLog(@"Temp4 viewDidLoad");
+//    NSLog(@"Temp4 viewDidLoad");
 }
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     
-    NSLog(@"Temp4 viewWillAppear:");
+//    NSLog(@"Temp4 viewWillAppear:");
 }
 
 - (void)viewDidDisappear:(BOOL)animated {
     [super viewDidDisappear:animated];
     
-    NSLog(@"Temp4 viewDidDisappear:");
+//    NSLog(@"Temp4 viewDidDisappear:");
 }
 
 - (void)dealloc {
-    NSLog(@"Temp4 dealloc");
+//    NSLog(@"Temp4 dealloc");
 }
 
 - (void)didReceiveMemoryWarning {

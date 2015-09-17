@@ -18,23 +18,23 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     
-    NSLog(@"Temp5 viewDidLoad");
+//    NSLog(@"Temp5 viewDidLoad");
 }
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     
-    NSLog(@"Temp5 viewWillAppear:");
+//    NSLog(@"Temp5 viewWillAppear:");
 }
 
 - (void)viewDidDisappear:(BOOL)animated {
     [super viewDidDisappear:animated];
     
-    NSLog(@"Temp5 viewDidDisappear:");
+//    NSLog(@"Temp5 viewDidDisappear:");
 }
 
 - (void)dealloc {
-    NSLog(@"Temp5 dealloc");
+//    NSLog(@"Temp5 dealloc");
 }
 
 - (void)didReceiveMemoryWarning {

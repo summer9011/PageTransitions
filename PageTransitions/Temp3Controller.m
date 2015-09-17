@@ -18,23 +18,23 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     
-    NSLog(@"Temp3 viewDidLoad");
+//    NSLog(@"Temp3 viewDidLoad");
 }
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     
-    NSLog(@"Temp3 viewWillAppear:");
+//    NSLog(@"Temp3 viewWillAppear:");
 }
 
 - (void)viewDidDisappear:(BOOL)animated {
     [super viewDidDisappear:animated];
     
-    NSLog(@"Temp3 viewDidDisappear:");
+//    NSLog(@"Temp3 viewDidDisappear:");
 }
 
 - (void)dealloc {
-    NSLog(@"Temp3 dealloc");
+//    NSLog(@"Temp3 dealloc");
 }
 
 - (void)didReceiveMemoryWarning {

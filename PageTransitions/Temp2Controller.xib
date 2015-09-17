@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Temp2Controller">
             <connections>
+                <outlet property="listTable" destination="JCJ-R1-AyF" id="5S1-D5-IvN"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -14,17 +16,20 @@
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Temp2VC" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EWw-05-9ex">
-                    <rect key="frame" x="263" y="290" width="75" height="21"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                    <nil key="highlightedColor"/>
-                </label>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="JCJ-R1-AyF">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="BOa-cc-JAe"/>
+                        <outlet property="delegate" destination="-1" id="Rsj-Oz-6IA"/>
+                    </connections>
+                </tableView>
             </subviews>
-            <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
-                <constraint firstAttribute="centerY" secondItem="EWw-05-9ex" secondAttribute="centerY" id="0zB-u6-WsI"/>
-                <constraint firstAttribute="centerX" secondItem="EWw-05-9ex" secondAttribute="centerX" id="ASX-8N-ePX"/>
+                <constraint firstItem="JCJ-R1-AyF" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="5y1-BW-RhH"/>
+                <constraint firstAttribute="trailing" secondItem="JCJ-R1-AyF" secondAttribute="trailing" id="LYW-vf-GUQ"/>
+                <constraint firstAttribute="bottom" secondItem="JCJ-R1-AyF" secondAttribute="bottom" id="Oa4-UV-lH4"/>
+                <constraint firstItem="JCJ-R1-AyF" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="aIv-YW-zN2"/>
             </constraints>
         </view>
     </objects>

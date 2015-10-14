@@ -26,18 +26,13 @@
     self.imageStrArr = [NSMutableArray array];
     
     NSArray *arr = @[
-                     @"http://zx.kaitao.cn/UserFiles/Image/beijingtupian6.jpg",
-                     @"http://news.51sheyuan.com/uploads/allimg/111001/133442IB-2.jpg",
-                     @"http://www.xxjxsj.cn/article/UploadPic/2009-10/200910321242159016.jpg",
-                     @"http://zx.kaitao.cn/UserFiles/Image/beijingtupian6.jpg",
-                     @"http://news.51sheyuan.com/uploads/allimg/111001/133442IB-2.jpg",
-                     @"http://www.xxjxsj.cn/article/UploadPic/2009-10/200910321242159016.jpg"
+                     @"http://zx.kaitao.cn/UserFiles/Image/beijingtupian6.jpg"
                      ];
     [self.imageStrArr addObjectsFromArray:arr];
     
     __block NSMutableArray *blockImageArr = self.imageStrArr;
     
-    self.circleScroll = [[CircleScrollView alloc] initWithFrame:CGRectMake(0, 64, [UIScreen mainScreen].bounds.size.width, 300) animationDuration:-1];
+    self.circleScroll = [[CircleScrollView alloc] initWithFrame:CGRectMake(0, 64, [UIScreen mainScreen].bounds.size.width, 300) animationDuration:3];
     
     self.circleScroll.fetchImageStrAtIndex = ^NSString *(NSInteger pageIndex) {
         return blockImageArr[pageIndex];
@@ -55,7 +50,15 @@
 }
 
 - (IBAction)doResetDataAction:(id)sender {
-    [self.imageStrArr removeLastObject];
+//    [self.imageStrArr removeLastObject];
+    
+    [self.imageStrArr addObjectsFromArray:@[
+                                            @"http://news.51sheyuan.com/uploads/allimg/111001/133442IB-2.jpg",
+                                            @"http://www.xxjxsj.cn/article/UploadPic/2009-10/200910321242159016.jpg",
+                                            @"http://zx.kaitao.cn/UserFiles/Image/beijingtupian6.jpg",
+                                            @"http://news.51sheyuan.com/uploads/allimg/111001/133442IB-2.jpg",
+                                            @"http://www.xxjxsj.cn/article/UploadPic/2009-10/200910321242159016.jpg"
+                                            ]];
     
     __block NSMutableArray *blockImageArr = self.imageStrArr;
     

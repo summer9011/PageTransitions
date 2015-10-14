@@ -65,7 +65,12 @@
     
     if (self.pageControl.numberOfPages > 0) {
         [self configContentViews];
-        [self.animationTimer setFireDate:[NSDate dateWithTimeIntervalSinceNow:self.animationDuration]];
+        
+        if (self.pageControl.numberOfPages == 1) {
+            [self.animationTimer setFireDate:[NSDate distantFuture]];
+        } else {
+            [self.animationTimer setFireDate:[NSDate dateWithTimeIntervalSinceNow:self.animationDuration]];
+        }
     }
 }
 
@@ -91,6 +96,8 @@
     }
     
     [_scrollView setContentOffset:CGPointMake(_scrollView.frame.size.width, 0)];
+    
+    NSLog(@"11");
 }
 
 - (void)setScrollViewContentDataSource {
@@ -131,11 +138,13 @@
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView {
     int contentOffsetX = scrollView.contentOffset.x;
+    
     if(contentOffsetX >= (2 * CGRectGetWidth(scrollView.frame))) {
         self.pageControl.currentPage = [self getValidNextPageIndexWithPageIndex:self.pageControl.currentPage + 1];
         
         [self configContentViews];
     }
+    
     if(contentOffsetX <= 0) {
         self.pageControl.currentPage = [self getValidNextPageIndexWithPageIndex:self.pageControl.currentPage - 1];
         

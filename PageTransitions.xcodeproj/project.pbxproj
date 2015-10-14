@@ -59,6 +59,9 @@
 		18D152BD1BA6AA9E00E0E88C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D152BC1BA6AA9E00E0E88C /* Images.xcassets */; };
 		18D152C01BA6AA9E00E0E88C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18D152BE1BA6AA9E00E0E88C /* LaunchScreen.xib */; };
 		18D152CC1BA6AA9E00E0E88C /* PageTransitionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D152CB1BA6AA9E00E0E88C /* PageTransitionsTests.m */; };
+		6E079B2D1BCE7BCB00915C0D /* FiveController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E079B2C1BCE7BCB00915C0D /* FiveController.m */; settings = {ASSET_TAGS = (); }; };
+		6E079B301BCE7C9200915C0D /* CircleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E079B2F1BCE7C9200915C0D /* CircleScrollView.m */; settings = {ASSET_TAGS = (); }; };
+		6E079B321BCE7F2D00915C0D /* CircleScrollItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E079B311BCE7F2D00915C0D /* CircleScrollItem.xib */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -158,6 +161,11 @@
 		18D152C51BA6AA9E00E0E88C /* PageTransitionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PageTransitionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18D152CA1BA6AA9E00E0E88C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18D152CB1BA6AA9E00E0E88C /* PageTransitionsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageTransitionsTests.m; sourceTree = "<group>"; };
+		6E079B2B1BCE7BCB00915C0D /* FiveController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FiveController.h; sourceTree = "<group>"; };
+		6E079B2C1BCE7BCB00915C0D /* FiveController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FiveController.m; sourceTree = "<group>"; };
+		6E079B2E1BCE7C9200915C0D /* CircleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleScrollView.h; sourceTree = "<group>"; };
+		6E079B2F1BCE7C9200915C0D /* CircleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleScrollView.m; sourceTree = "<group>"; };
+		6E079B311BCE7F2D00915C0D /* CircleScrollItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CircleScrollItem.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -340,6 +348,7 @@
 				18AF97841BA911EE00723449 /* 左右切换(UIScrollView) */,
 				18AF97601BA8FA7500723449 /* 类似网易新闻页面切换 */,
 				18AF97611BA8FA8200723449 /* 自定义UICollectionViewLayout */,
+				6E079B2A1BCE7B2700915C0D /* 循环切换 */,
 				18D152B91BA6AA9E00E0E88C /* Main.storyboard */,
 				18D152BC1BA6AA9E00E0E88C /* Images.xcassets */,
 				18D152BE1BA6AA9E00E0E88C /* LaunchScreen.xib */,
@@ -372,6 +381,18 @@
 				18D152CA1BA6AA9E00E0E88C /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6E079B2A1BCE7B2700915C0D /* 循环切换 */ = {
+			isa = PBXGroup;
+			children = (
+				6E079B2B1BCE7BCB00915C0D /* FiveController.h */,
+				6E079B2C1BCE7BCB00915C0D /* FiveController.m */,
+				6E079B2E1BCE7C9200915C0D /* CircleScrollView.h */,
+				6E079B2F1BCE7C9200915C0D /* CircleScrollView.m */,
+				6E079B311BCE7F2D00915C0D /* CircleScrollItem.xib */,
+			);
+			name = "循环切换";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -465,6 +486,7 @@
 				18AF97761BA8FE3C00723449 /* 5.jpg in Resources */,
 				1874C4D41BA95240007F1498 /* Temp1Controller.xib in Resources */,
 				1874C4E31BA95265007F1498 /* Temp4Controller.xib in Resources */,
+				6E079B321BCE7F2D00915C0D /* CircleScrollItem.xib in Resources */,
 				18AF97771BA8FE3C00723449 /* 6.jpg in Resources */,
 				18AF97801BA9013A00723449 /* FirstCell.xib in Resources */,
 				18AF978C1BA915A400723449 /* ImageScrollView.xib in Resources */,
@@ -501,6 +523,7 @@
 				18AF97B81BA9164A00723449 /* SDWebImageDownloaderOperation.m in Sources */,
 				18AF97B91BA9164A00723449 /* SDWebImageManager.m in Sources */,
 				18AF97871BA9156000723449 /* FourthController.m in Sources */,
+				6E079B301BCE7C9200915C0D /* CircleScrollView.m in Sources */,
 				18AF975B1BA8FA5D00723449 /* SecondController.m in Sources */,
 				18AF97B71BA9164A00723449 /* SDWebImageDownloader.m in Sources */,
 				18AF97B21BA9164A00723449 /* MKAnnotationView+WebCache.m in Sources */,
@@ -516,6 +539,7 @@
 				18AF97831BA9016100723449 /* FirstFlowLayout.m in Sources */,
 				1874C4DD1BA9525A007F1498 /* Temp3Controller.m in Sources */,
 				18AF975E1BA8FA6800723449 /* ThirdController.m in Sources */,
+				6E079B2D1BCE7BCB00915C0D /* FiveController.m in Sources */,
 				18AF97581BA8FA5000723449 /* FirstController.m in Sources */,
 				1874C4E21BA95265007F1498 /* Temp4Controller.m in Sources */,
 				18AF97BC1BA9164A00723449 /* UIImage+GIF.m in Sources */,
